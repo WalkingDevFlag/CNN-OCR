@@ -25,15 +25,15 @@ Handwritten digit recognition is a fundamental task in computer vision and has n
 Clone the repository:
 ```bash
 git clone https://github.com/your-username/handwritten-digit-recognition.git
-
+```
 Navigate to the project directory:
 ```bash
 cd handwritten-digit-recognition
-
+```
 Run the script:
 ```bash
 python digit_recognition.py
-
+```
 The script will train the CNN model on the MNIST dataset, evaluate its performance, and save the trained model to a file named ocr.h5.
 Code Explanation
 
