@@ -61,5 +61,6 @@ The trained CNN model achieves an accuracy of approximately 99% on the MNIST tes
 
 ## License
 
-This project is licensed under the MIT License.
+Lmao no liscence
+
 
