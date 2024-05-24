@@ -23,5 +23,28 @@ Handwritten digit recognition is a fundamental task in computer vision and has n
 
 You can install the required packages using pip:
 
-```bash
-pip install tensorflow keras numpy scikit-learn
+## Code Explanation
+
+- The necessary packages are imported, including Keras layers, optimizers, and the MNIST dataset.
+- The `build_model` function is defined to create the CNN architecture. It consists of two sets of convolutional, activation, and max-pooling layers, followed by two sets of fully connected, activation, and dropout layers. Finally, a softmax classifier is added.
+- The MNIST dataset is loaded, and the data is reshaped and scaled to the range of .
+- The labels are converted from integers to vectors using `LabelBinarizer`.
+- The CNN model is compiled with the Adam optimizer and categorical cross-entropy loss.
+- The model is trained using the `fit` method, with the training and validation data, batch size, and number of epochs specified.
+- The trained model is evaluated on the test data, and the classification report is printed.
+- The trained model is serialized to disk using `model.save`.
+
+## Results
+
+The trained CNN model achieves an accuracy of approximately 99% on the MNIST test set. The classification report provides detailed performance metrics for each digit class.
+
+## Future Improvements
+
+- Experiment with different CNN architectures and hyperparameters to further improve the model's performance.
+- Implement data augmentation techniques to increase the diversity of the training data and improve generalization.
+- Explore transfer learning by using pre-trained models as a starting point for fine-tuning on the MNIST dataset.
+
+## License
+
+This project is licensed under the MIT License.
+
