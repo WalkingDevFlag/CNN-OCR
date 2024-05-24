@@ -61,6 +61,6 @@ The trained CNN model achieves an accuracy of approximately 99% on the MNIST tes
 
 ## License
 
-Lmao no liscence
+Lmao no license
 
 
