@@ -35,7 +35,6 @@ Run the script:
 python digit_recognition.py
 ```
 The script will train the CNN model on the MNIST dataset, evaluate its performance, and save the trained model to a file named ocr.h5.
-Code Explanation
 
 
 ## Code Explanation
