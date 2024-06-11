@@ -29,3 +29,31 @@ Install the required packages using:
 ```bash
 pip install tensorflow numpy matplotlib opencv-python scikit-learn
 ```
+Data Preparation
+The data preparation involves loading the images, preprocessing them, and splitting them into training, validation, and test sets.
+
+## Preprocessing Steps
+- Convert images to grayscale.
+- Apply histogram equalization.
+- Apply binary thresholding.
+- Normalize pixel values to the range [0, 1].
+
+## Model Training
+A Convolutional Neural Network (CNN) with the following architecture is used for training:
+
+- Conv2D layer with 32 filters, kernel size (3,3), ReLU activation
+- MaxPooling2D layer with pool size (2,2)
+- Dropout layer with rate 0.5
+- Conv2D layer with 64 filters, kernel size (3,3), ReLU activation
+- MaxPooling2D layer with pool size (2,2)
+- Dropout layer with rate 0.5
+- Conv2D layer with 64 filters, kernel size (3,3), ReLU activation
+- Flatten layer
+- Dense layer with 128 units, ReLU activation
+- Dropout layer with rate 0.5
+- Dense layer with 10 units, softmax activation
+- Early Stopping
+- Training stops early if the validation accuracy reaches 99.5%.
+
+## Model Evaluation
+The model's performance is evaluated using the test dataset. Metrics such as loss and accuracy are recorded.
