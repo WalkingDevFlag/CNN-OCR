@@ -8,8 +8,6 @@ This project involves building a Convolutional Neural Network (CNN) to recognize
 - [Data Preparation](#data-preparation)
 - [Model Training](#model-training)
 - [Model Evaluation](#model-evaluation)
-- [Model Saving](#model-saving)
-- [Usage](#usage)
 - [License](#license)
 
 ## Dataset
