@@ -57,3 +57,7 @@ A Convolutional Neural Network (CNN) with the following architecture is used for
 
 ## Model Evaluation
 The model's performance is evaluated using the test dataset. Metrics such as loss and accuracy are recorded.
+
+## License
+No license lmao
+
