@@ -52,7 +52,7 @@ A Convolutional Neural Network (CNN) with the following architecture is used for
 - Dense layer with 128 units, ReLU activation
 - Dropout layer with rate 0.5
 - Dense layer with 10 units, softmax activation
-- Early Stopping
+
 - Training stops early if the validation accuracy reaches 99.5%.
 
 ## Model Evaluation
